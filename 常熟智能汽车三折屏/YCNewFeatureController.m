@@ -1,16 +1,15 @@
 //
 //  YCNewFeatureController.m
-//  9.23.1微博框架
+//  常熟智能汽车三折屏
 //
-//  Created by brother on 15/10/6.
-//  Copyright © 2015年 brother. All rights reserved.
+//  Created by 尤超 on 17/4/25.
+//  Copyright © 2017年 尤超. All rights reserved.
 //
 
 #import "YCNewFeatureController.h"
+#import "LoginController.h"
 
-#import "YCTabBarController.h"
-
-#define YCNewFeatureCount 4
+#define YCNewFeatureCount 3
 
 @interface YCNewFeatureController ()<UIScrollViewDelegate>
 
@@ -64,7 +63,7 @@
     UIPageControl *pageController = [[UIPageControl alloc] init];
     pageController.numberOfPages = YCNewFeatureCount;
     pageController.backgroundColor = [UIColor redColor];
-    pageController.currentPageIndicatorTintColor = [UIColor orangeColor];
+    pageController.currentPageIndicatorTintColor = [UIColor whiteColor                                                     ];
     pageController.pageIndicatorTintColor = [UIColor grayColor];
     CGPoint center = CGPointZero;
     center.x = scrollW * 0.5;
@@ -77,7 +76,9 @@
     self.pageControl = pageController;
     // Do any additional setup after loading the view.
     
+    
 }
+
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     double page = scrollView.contentOffset.x / scrollView.frame.size.width;
@@ -91,55 +92,20 @@
     // 开启交互功能
     imageView.userInteractionEnabled = YES;
     
-    // 1.分享给大家（checkbox）
-    UIButton *shareBtn = [[UIButton alloc] init];
-    [shareBtn setImage:[UIImage imageNamed:@"new_feature_share_false"] forState:UIControlStateNormal];
-    [shareBtn setImage:[UIImage imageNamed:@"new_feature_share_true"] forState:UIControlStateSelected];
-    [shareBtn setTitle:@"分享给大家" forState:UIControlStateNormal];
-    [shareBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    
-    CGRect shareRect = CGRectZero;
-    shareRect.size = CGSizeMake(250, 30);
-    shareBtn.frame = shareRect;
-    
-    CGPoint shareBtnCenter = CGPointZero;
-    shareBtnCenter.x = imageView.frame.size.width * 0.5;
-    shareBtnCenter.y = imageView.frame.size.height * 0.65;
-    shareBtn.center = shareBtnCenter;
-    
-    [shareBtn addTarget:self action:@selector(shareClick:) forControlEvents:UIControlEventTouchUpInside];
-    [imageView addSubview:shareBtn];
 
-    shareBtn.titleEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);
-    
-    
-    // 2.开始微博
+    //开始
     UIButton *startBtn = [[UIButton alloc] init];
-    [startBtn setBackgroundImage:[UIImage imageNamed:@"new_feature_finish_button"] forState:UIControlStateNormal];
-    [startBtn setBackgroundImage:[UIImage imageNamed:@"new_feature_finish_button_highlighted"] forState:UIControlStateHighlighted];
-    CGRect startRect = CGRectZero;
-    startRect.size = startBtn.currentBackgroundImage.size;
-    startBtn.frame = startRect;
-    
-    CGPoint startCenter = startBtn.center;
-    startCenter.x = shareBtn.center.x;
-    startCenter.y = imageView.frame.size.height * 0.75;
-    startBtn.center = startCenter;
-    [startBtn setTitle:@"开始微博" forState:UIControlStateNormal];
+    startBtn.frame = self.view.frame;
+    startBtn.backgroundColor = [UIColor clearColor];
     [startBtn addTarget:self action:@selector(startClick) forControlEvents:UIControlEventTouchUpInside];
     [imageView addSubview:startBtn];
 
-}
-
-- (void)shareClick:(UIButton *)shareBtn {
-    // 状态取反
-    shareBtn.selected = !shareBtn.isSelected;
+ 
 }
 
 - (void)startClick {
-    UIWindow *window = [UIApplication sharedApplication].keyWindow;
-    
-    window.rootViewController = [[YCTabBarController alloc] init];
+    LoginController *VC = [[LoginController alloc] init];
+    [self presentViewController:VC animated:YES completion:nil];
 }
 
 - (void)dealloc {

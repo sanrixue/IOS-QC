@@ -7,22 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B1157901EC01A130088A17D /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B11578F1EC01A130088A17D /* LoginController.m */; };
+		7B2ED8751EB2E08900060C22 /* YCNewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2ED8741EB2E08900060C22 /* YCNewFeatureController.m */; };
+		7B2ED87C1EB3147700060C22 /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = 7B2ED8771EB3147700060C22 /* Documentation.html */; };
+		7B2ED87D1EB3147700060C22 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2ED8791EB3147700060C22 /* GCDAsyncSocket.m */; };
+		7B2ED87E1EB3147700060C22 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2ED87B1EB3147700060C22 /* GCDAsyncUdpSocket.m */; };
 		7B7E53C51EAEEB41008C8994 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7E53C41EAEEB41008C8994 /* main.m */; };
 		7B7E53C81EAEEB41008C8994 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7E53C71EAEEB41008C8994 /* AppDelegate.m */; };
 		7B7E53CB1EAEEB41008C8994 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7E53CA1EAEEB41008C8994 /* ViewController.m */; };
-		7B7E53CE1EAEEB41008C8994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7E53CC1EAEEB41008C8994 /* Main.storyboard */; };
 		7B7E53D01EAEEB41008C8994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7E53CF1EAEEB41008C8994 /* Assets.xcassets */; };
 		7B7E53D31EAEEB41008C8994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7E53D11EAEEB41008C8994 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B11578E1EC01A130088A17D /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		7B11578F1EC01A130088A17D /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		7B2ED8731EB2E08900060C22 /* YCNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCNewFeatureController.h; sourceTree = "<group>"; };
+		7B2ED8741EB2E08900060C22 /* YCNewFeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCNewFeatureController.m; sourceTree = "<group>"; };
+		7B2ED8771EB3147700060C22 /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
+		7B2ED8781EB3147700060C22 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		7B2ED8791EB3147700060C22 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		7B2ED87A1EB3147700060C22 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		7B2ED87B1EB3147700060C22 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		7B2ED87F1EB3148000060C22 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
 		7B7E53C01EAEEB41008C8994 /* 常熟智能汽车三折屏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "常熟智能汽车三折屏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7E53C41EAEEB41008C8994 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B7E53C61EAEEB41008C8994 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B7E53C71EAEEB41008C8994 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7B7E53C91EAEEB41008C8994 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7B7E53CA1EAEEB41008C8994 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7B7E53CD1EAEEB41008C8994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B7E53CF1EAEEB41008C8994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B7E53D21EAEEB41008C8994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B7E53D41EAEEB41008C8994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +52,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B2ED8761EB3147700060C22 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				7B2ED8771EB3147700060C22 /* Documentation.html */,
+				7B2ED8781EB3147700060C22 /* GCDAsyncSocket.h */,
+				7B2ED8791EB3147700060C22 /* GCDAsyncSocket.m */,
+				7B2ED87A1EB3147700060C22 /* GCDAsyncUdpSocket.h */,
+				7B2ED87B1EB3147700060C22 /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
 		7B7E53B71EAEEB41008C8994 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +83,16 @@
 		7B7E53C21EAEEB41008C8994 /* 常熟智能汽车三折屏 */ = {
 			isa = PBXGroup;
 			children = (
+				7B2ED87F1EB3148000060C22 /* CocoaAsyncSocket.h */,
+				7B2ED8761EB3147700060C22 /* GCD */,
 				7B7E53C61EAEEB41008C8994 /* AppDelegate.h */,
 				7B7E53C71EAEEB41008C8994 /* AppDelegate.m */,
+				7B2ED8731EB2E08900060C22 /* YCNewFeatureController.h */,
+				7B2ED8741EB2E08900060C22 /* YCNewFeatureController.m */,
+				7B11578E1EC01A130088A17D /* LoginController.h */,
+				7B11578F1EC01A130088A17D /* LoginController.m */,
 				7B7E53C91EAEEB41008C8994 /* ViewController.h */,
 				7B7E53CA1EAEEB41008C8994 /* ViewController.m */,
-				7B7E53CC1EAEEB41008C8994 /* Main.storyboard */,
 				7B7E53CF1EAEEB41008C8994 /* Assets.xcassets */,
 				7B7E53D11EAEEB41008C8994 /* LaunchScreen.storyboard */,
 				7B7E53D41EAEEB41008C8994 /* Info.plist */,
@@ -105,7 +135,7 @@
 		7B7E53B81EAEEB41008C8994 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "尤超";
 				TargetAttributes = {
 					7B7E53BF1EAEEB41008C8994 = {
@@ -122,6 +152,13 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
+				it,
+				ru,
+				uk,
+				vi,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 7B7E53B71EAEEB41008C8994;
 			productRefGroup = 7B7E53C11EAEEB41008C8994 /* Products */;
@@ -139,8 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B7E53D31EAEEB41008C8994 /* LaunchScreen.storyboard in Resources */,
+				7B2ED87C1EB3147700060C22 /* Documentation.html in Resources */,
 				7B7E53D01EAEEB41008C8994 /* Assets.xcassets in Resources */,
-				7B7E53CE1EAEEB41008C8994 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +188,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1157901EC01A130088A17D /* LoginController.m in Sources */,
 				7B7E53CB1EAEEB41008C8994 /* ViewController.m in Sources */,
+				7B2ED87D1EB3147700060C22 /* GCDAsyncSocket.m in Sources */,
+				7B2ED8751EB2E08900060C22 /* YCNewFeatureController.m in Sources */,
 				7B7E53C81EAEEB41008C8994 /* AppDelegate.m in Sources */,
+				7B2ED87E1EB3147700060C22 /* GCDAsyncUdpSocket.m in Sources */,
 				7B7E53C51EAEEB41008C8994 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,14 +201,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7B7E53CC1EAEEB41008C8994 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B7E53CD1EAEEB41008C8994 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7B7E53D11EAEEB41008C8994 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -183,6 +216,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -231,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -275,9 +310,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 759J4R8M5B;
 				INFOPLIST_FILE = "常熟智能汽车三折屏/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lantian.dlz.---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -287,9 +324,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 759J4R8M5B;
 				INFOPLIST_FILE = "常熟智能汽车三折屏/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lantian.dlz.---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -312,6 +351,7 @@
 				7B7E53D91EAEEB41008C8994 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

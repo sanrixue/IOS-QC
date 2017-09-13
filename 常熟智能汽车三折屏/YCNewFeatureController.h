@@ -1,9 +1,9 @@
 //
 //  YCNewFeatureController.h
-//  9.23.1微博框架
+//  常熟智能汽车三折屏
 //
-//  Created by brother on 15/10/6.
-//  Copyright © 2015年 brother. All rights reserved.
+//  Created by 尤超 on 17/4/25.
+//  Copyright © 2017年 尤超. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
